@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { connect } from 'react-redux'
 import { addTodo } from '../redux/actions'
 
-const AddTodo = (props) => {
+const AddTodo = ({ addTodo }) => {
     const [input, setInput] = useState('')
 
     const updateInput = input => {
@@ -10,7 +10,7 @@ const AddTodo = (props) => {
     }
 
     const handleAddTodo = () => {
-        props.addTodo(input)
+        addTodo(input)
         setInput('')
     }
 
