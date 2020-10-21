@@ -5,12 +5,12 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.4.0",
     "@testing-library/jest-dom": "^5.11.3",
-    "@testing-library/react": "^10.4.8",
+    "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "react-redux": "^7.2.1",
-    "react-scripts": "3.4.3",
+    "react-scripts": "3.4.4",
     "redux-observable": "^1.2.0",
     "rxjs": "^6.6.2"
   },
